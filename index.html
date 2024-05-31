@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM manipulation With Form</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <p id="description">Short description : This Project is Dom manipulation with form.</p>
+            <h1 id="title">Form Submit</h1>
+            <div class="">
+                <form action="" id="form">
+                    <label class="lable" for="name">First name</label><br><br>
+                    <input class="form-color" type="text" name="name" placeholder="Fill your first name here" id="name" ><br><br>
+
+                    <label class="lable" for="last">Last name</label><br><br>
+                    <input class="form-color" type="text" name="last" placeholder="Fill your Last name here" id="last" ><br><br>
+
+                    <label class="lable" for="email">Email</label><br><br>
+                    <input class="form-color" type="email" name="email" placeholder="Fill your Email here" id="email" ><br><br>
+                    
+                    <label class="lable" for="address">Address</label><br><br>
+                    <input class="form-color" type="text" name="address" placeholder="Fill your Address here" id="address" ><br><br>
+
+                    <label class="lable" for="pincode">Pin code</label><br><br>
+                    <input class="form-color" type="text" name="pincode" placeholder="Fill your Pin code here" id="pincode" ><br><br>
+
+                    <label class ="lable" for="gender">Gender</label><br><br>
+                        <select class ="form-color" name="gender" id="gender">
+                            <option value="">-Select Gender-</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select><br><br>
+
+                    <label class ="lable" for="Food">Choice Of Food</label><br><br>
+                    <select class ="form-color" name="Food" id="Food">
+                        <option value="">-Choice Of Food-</option>
+                        <option value="fish">fish</option>
+                        <option value="chicken">chicken</option>
+                        <option value="mutton">mutton</option>
+                    </select><br><br> 
+                    
+                    <label class ="lable" for="state">State</label><br><br>
+                    <input class ="form-color" type="text" placeholder="Fill your state name here" id="state"><br><br>
+
+                    <label class ="lable" for="country">Country</label><br><br>
+                    <input class ="form-color" type="text" placeholder="fill your Country name here" id="country"><br><br>
+
+                    <button class ="" type="submit" id="submit">submit</button>
+
+                </form>
+            </div>
+
+        </div>
+
+        <table class="table">
+            <thead>
+            <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Pincode</th>
+            <th>Gender</th>
+            <th>Choice Of Food</th>
+            <th>State</th>
+            <th>Country</th>
+          </tr>
+          </thead>
+          <tbody>
+          
+          </tbody>
+          </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
